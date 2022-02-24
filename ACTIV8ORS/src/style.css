@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+/* @font-face {
+    font-family: 'azonix';
+    src:url("https://dafonttop.com/wp-data/a/632/9632/file/Azonix.otf") format("woff"),
+    url("https://dafonttop.com/wp-data/a/632/9632/file/Azonix.otf") format("opentype"),
+    url("https://dafonttop.com/wp-data/a/632/9632/file/Azonix.otf") format("truetype");
+} */
+
+/* @font-face {
+    font-family:"azonix-bold";
+    src:url("https://dafonttop.com/wp-data/a/632/9632/file/Azonix.otf") format("woff"),
+    url("https://dafonttop.com/wp-data/a/632/9632/file/Azonix.otf") format("opentype"),
+    url("https://dafonttop.com/wp-data/a/632/9632/file/Azonix.otf") format("truetype");
+} */
+
+.blurred {
+    filter: blur(2px);
+}
+
+.stop {
+    filter: blur(0);
+}
